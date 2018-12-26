@@ -42,4 +42,6 @@ Die Anbindung an ioBroker erfolgt dabei über den Modbus Adapter
 
 4. Inbetriebnahme und Regelung
 
+<img src="https://user-images.githubusercontent.com/819464/50450514-e6fd0d00-092e-11e9-8232-76c392d5bdfd.jpg"></img>
+
   ...
