@@ -1,60 +1,60 @@
 address	name	description	unit	type	len	factor	offset	role	room	poll	wp
 1000	Power	Power  (R/W)	W	uint16be	1	1	0	value		true	false
-1001	Temp1	Temp1 (R)	°C	uint16be	1	0.1	0	value		true	false
-1002	WW1_Temp_max	WW1 Temp max  (R/W)	°C	uint16be	1	1	0	value		true	false
+1001	Temp1	Temp1 (R)	°C	uint16be	1	0.1	0	value.temperature		true	false
+1002	WW1_Temp_max	WW1 Temp max  (R/W)	°C	uint16be	1	1	0	value.temperature		true	false
 1003	Status	Status (R)		uint16be	1	1	0	value		true	false
 1004	Power_timout	Power timout  (R/W)	sec	uint16be	1	1	0	value		true	false
 1005	Boost_mode	Boost mode  (R/W)		uint16be	1	1	0	value		true	false
-1006	WW1_min	WW1 min  (R/W)	°C	uint16be	1	0.1	0	value		true	false
+1006	WW1_min	WW1 min  (R/W)	°C	uint16be	1	0.1	0	value.temperature		true	false
 1007	Boost_time_1_start	Boost time 1 start  (R/W)		uint16be	1	1	0	value		true	false
 1008	Boost_time_1_stop	Boost time 1 stop  (R/W)		uint16be	1	1	0	value		true	false
 1009	Hour	Hour  (R/W)		uint16be	1	1	0	value		true	false
 1010	Minute	Minute  (R/W)		uint16be	1	1	0	value		true	false
 1011	Second	Second  (R/W)		uint16be	1	1	0	value		true	false
-1012	Boost_activate	Boost_activate  (R/W)		uint16be	1	1	0	value		true	false
-1013	AC•THOR_Number	AC•THOR_Number  (R/W)		uint16be	1	1	0	value		true	false
-1014	max_Power	max_Power  (R/W)		uint16be	1	1	0	value		true	false
-1015	tempchip	tempchip (R)	°C	uint16be	1	0.1	0	value		true	false
-1016	Control_Firmware_Version	Control_Firmware_Version (R)		uint16be	1	1	0	value		false	false
-1017	PS_firmware_version	PS_firmware_version (R)		uint16be	1	1	0	value		false	false
-1018	AC•THOR_serial_number	AC•THOR serial number (R)		string	1	1	0	value		false	false
-1019	AC•THOR_serial_number	AC•THOR serial number (R)		string	1	1	0	value		false	false
-1020	AC•THOR_serial_number	AC•THOR serial number (R)		string	1	1	0	value		false	false
-1021	AC•THOR_serial_number	AC•THOR serial number (R)		string	1	1	0	value		false	false
-1022	AC•THOR_serial_number	AC•THOR serial number (R)		string	1	1	0	value		false	false
-1023	AC•THOR_serial_number	AC•THOR serial number (R)		string	1	1	0	value		false	false
-1024	AC•THOR_serial_number	AC•THOR serial number (R)		string	1	1	0	value		false	false
-1025	AC•THOR_serial_number	AC•THOR serial number (R)		string	1	1	0	value		false	false
+1012	Boost_activate	Boost activate  (R/W)		uint16be	1	1	0	value		true	false
+1013	AC•THOR_Number	AC•THOR Number  (R/W)		uint16be	1	1	0	value		true	false
+1014	max_Power	max Power  (R/W)		uint16be	1	1	0	value		true	false
+1015	tempchip	tempchip (R)	°C	uint16be	1	0.1	0	value.temperature		true	false
+1016	Control_Firmware_Version	Control Firmware Version (R)		uint16be	1	1	0	value		true	false
+1017	PS_firmware_version	PS firmware version (R)		uint16be	1	1	0	value		true	false
+1018	AC•THOR_serial_number	AC•THOR serial number (R)		string	1	1	0	value		true	false
+1019	AC•THOR_serial_number	AC•THOR serial number (R)		string	1	1	0	value		true	false
+1020	AC•THOR_serial_number	AC•THOR serial number (R)		string	1	1	0	value		true	false
+1021	AC•THOR_serial_number	AC•THOR serial number (R)		string	1	1	0	value		true	false
+1022	AC•THOR_serial_number	AC•THOR serial number (R)		string	1	1	0	value		true	false
+1023	AC•THOR_serial_number	AC•THOR serial number (R)		string	1	1	0	value		true	false
+1024	AC•THOR_serial_number	AC•THOR serial number (R)		string	1	1	0	value		true	false
+1025	AC•THOR_serial_number	AC•THOR serial number (R)		string	1	1	0	value		true	false
 1026	Boost_time_2_start	Boost time 2 start  (R/W)		uint16be	1	1	0	value		true	false
 1027	Boost_time_2_stop	Boost time 2 stop  (R/W)		uint16be	1	1	0	value		true	false
-1028	Control_Firmware_sub_Version	Control_Firmware_sub_Version (R)		uint16be	1	1	0	value		false	false
-1029	Control_Firmware_Update_Available	Control_Firmware_Update_Available (R)		uint16be	1	1	0	value		false	false
-1030	Temp_2	Temp 2 (R)	°C	uint16be	1	0.1	0	value		true	false
-1031	Temp_3	Temp 3 (R)	°C	uint16be	1	0.1	0	value		true	false
-1032	Temp_4	Temp 4 (R)	°C	uint16be	1	0.1	0	value		true	false
-1033	Temp_5	Temp 5 (R)	°C	uint16be	1	0.1	0	value		true	false
-1034	Temp_6	Temp 6 (R)	°C	uint16be	1	0.1	0	value		true	false
-1035	Temp_7	Temp 7 (R)	°C	uint16be	1	0.1	0	value		true	false
-1036	Temp_8	Temp 8 (R)	°C	uint16be	1	0.1	0	value		true	false
-1037	ww_2_max	ww 2 max  (R/W)	°C	uint16be	1	0.1	0	value		true	false
-1038	ww_3_max	ww 3 max  (R/W)	°C	uint16be	1	0.1	0	value		true	false
-1039	WW_2_min	WW 2 min  (R/W)	°C	uint16be	1	0.1	0	value		true	false
-1040	WW_3_min	WW 3 min  (R/W)	°C	uint16be	1	0.1	0	value		true	false
-1041	RH1_max	RH1 max  (R/W)	°C	uint16be	1	0.1	0	value		true	false
-1042	RH2_max	RH2 max  (R/W)	°C	uint16be	1	0.1	0	value		true	false
-1043	RH3_max	RH3 max  (R/W)	°C	uint16be	1	0.1	0	value		true	false
-1044	RH1_day_min	RH1 day min  (R/W)	°C	uint16be	1	0.1	0	value		true	false
-1045	RH2_day_min	RH2 day min  (R/W)	°C	uint16be	1	0.1	0	value		true	false
-1046	RH3_day_min	RH3 day min  (R/W)	°C	uint16be	1	0.1	0	value		true	false
-1047	RH1_night_min	RH1 night min  (R/W)	°C	uint16be	1	0.1	0	value		true	false
-1048	RH2_night_min	RH2 night min  (R/W)	°C	uint16be	1	0.1	0	value		true	false
-1049	RH3_night_min	RH3 night min  (R/W)	°C	uint16be	1	0.1	0	value		true	false
+1028	Control_Firmware_sub_Version	Control Firmware sub Version (R)		uint16be	1	1	0	value		true	false
+1029	Control_Firmware_Update_Available	Control Firmware Update Available (R)		uint16be	1	1	0	value		true	false
+1030	Temp_2	Temp 2 (R)	°C	uint16be	1	0.1	0	value.temperature		true	false
+1031	Temp_3	Temp 3 (R)	°C	uint16be	1	0.1	0	value.temperature		true	false
+1032	Temp_4	Temp 4 (R)	°C	uint16be	1	0.1	0	value.temperature		true	false
+1033	Temp_5	Temp 5 (R)	°C	uint16be	1	0.1	0	value.temperature		true	false
+1034	Temp_6	Temp 6 (R)	°C	uint16be	1	0.1	0	value.temperature		true	false
+1035	Temp_7	Temp 7 (R)	°C	uint16be	1	0.1	0	value.temperature		true	false
+1036	Temp_8	Temp 8 (R)	°C	uint16be	1	0.1	0	value.temperature		true	false
+1037	WW_2_max	WW 2 max  (R/W)	°C	uint16be	1	0.1	0	value.temperature		true	false
+1038	WW_3_max	WW 3 max  (R/W)	°C	uint16be	1	0.1	0	value.temperature		true	false
+1039	WW_2_min	WW 2 min  (R/W)	°C	uint16be	1	0.1	0	value.temperature		true	false
+1040	WW_3_min	WW 3 min  (R/W)	°C	uint16be	1	0.1	0	value.temperature		true	false
+1041	RH1_max	RH1 max  (R/W)	°C	uint16be	1	0.1	0	value.temperature		true	false
+1042	RH2_max	RH2 max  (R/W)	°C	uint16be	1	0.1	0	value.temperature		true	false
+1043	RH3_max	RH3 max  (R/W)	°C	uint16be	1	0.1	0	value.temperature		true	false
+1044	RH1_day_min	RH1 day min  (R/W)	°C	uint16be	1	0.1	0	value.temperature		true	false
+1045	RH2_day_min	RH2 day min  (R/W)	°C	uint16be	1	0.1	0	value.temperature		true	false
+1046	RH3_day_min	RH3 day min  (R/W)	°C	uint16be	1	0.1	0	value.temperature		true	false
+1047	RH1_night_min	RH1 night min  (R/W)	°C	uint16be	1	0.1	0	value.temperature		true	false
+1048	RH2_night_min	RH2 night min  (R/W)	°C	uint16be	1	0.1	0	value.temperature		true	false
+1049	RH3_night_min	RH3 night min  (R/W)	°C	uint16be	1	0.1	0	value.temperature		true	false
 1050	Night_flag	Night flag (R)		uint16be	1	1	0	value		true	false
 1051	UTC_correction	UTC correction  (R/W)		uint16be	1	1	0	value		true	false
 1052	DST_correction	DST correction  (R/W)		uint16be	1	1	0	value		true	false
 1053	Legionella_interval	Legionella interval  (R/W)	days	uint16be	1	1	0	value		true	false
 1054	Legionella_start	Legionella start  (R/W)	hrs	uint16be	1	1	0	value		true	false
-1055	Legionella_temp	Legionella temp  (R/W)	°C	uint16be	1	1	0	value		true	false
+1055	Legionella_temp	Legionella temp  (R/W)	°C	uint16be	1	1	0	value.temperature		true	false
 1056	Legionella_mode	Legionella mode  (R/W)		uint16be	1	1	0	value		true	false
 1057	Stratification_flag	Stratification flag (R)		uint16be	1	1	0	value		true	false
 1058	Relay_1_status	Relay 1 status (R)		uint16be	1	1	0	value		true	false
@@ -66,8 +66,8 @@ address	name	description	unit	type	len	factor	offset	role	room	poll	wp
 1064	Freq	Freq (R)	Hz	uint16be	1	0.001	0	value		true	false
 1065	Operation_mode	Operation mode  (R/W)		uint16be	1	1	0	value		true	false
 1066	Access_Level	Access Level  (R/W)		uint16be	1	1	0	value		true	false
-1067	reserved_for_AC•THOR_9s	reserved for AC•THOR 9s  R/W		uint16be	1	1	0	value		false	false
-1068	reserved_for_AC•THOR_9s	reserved for AC•THOR 9s  R/W		uint16be	1	1	0	value		false	false
+1067	reserved_for_AC•THOR_9s	reserved for AC•THOR 9s  R/W		uint16be	1	1	0	value		true	false
+1068	reserved_for_AC•THOR_9s	reserved for AC•THOR 9s  R/W		uint16be	1	1	0	value		true	false
 1069	Meter_Power	Meter Power (R)		uint16be	1	1	0	value		true	false
 1070	Control_type	Control type  (R/W)		uint16be	1	1	0	value		true	false
 1071	Pmax_abs	Pmax abs (R)		uint16be	1	1	0	value		true	false
