@@ -1,7 +1,4 @@
-Einbindung des MyPV AC•THOR in ioBroker über den ioBroker Modbus-Adapter.
-
-# Verbrauchsoptimierung von eigenerzeugter PV/BHKW Energie #
-
+# Einbindung des MyPV AC•THOR in ioBroker über den ioBroker Modbus-Adapter. #
 
 <img src="https://user-images.githubusercontent.com/819464/50426039-99c46100-0884-11e9-80e0-0c48ba5f803a.jpg"></img>
 
@@ -25,7 +22,7 @@ Sie kann mit Heizstäben in Warmwasser- und oder Pufferspeicher oder auch direkt
 Die Anbindung an ioBroker erfolgt dabei über den Modbus Adapter
 (Dank an Bluefox für den tollen Adapter!)
 
-1. Schritt
+# 1. Schritt
 
   Installation des Modbus Adapter.
 
@@ -35,7 +32,7 @@ Die Anbindung an ioBroker erfolgt dabei über den Modbus Adapter
 
   Bitte im ioBroker Admin unter Adapter den Modbusadapter auswählen und mit einem Klick auf das "+" Symbol hinzufügen.
 
-2. Schritt
+# 2. Schritt
 
   Grundparameter Modbus einstellen
 
@@ -44,12 +41,12 @@ Die Anbindung an ioBroker erfolgt dabei über den Modbus Adapter
 
   <img src="https://user-images.githubusercontent.com/819464/50450841-b4541400-0930-11e9-9384-e9076f846303.jpg"></img>
 
-3. Schritt
+# 3. Schritt
 
    Kopieren und Einfügen der Registereinstellungen
    ...
 
-4. Inbetriebnahme und Regelung
+# 4. Inbetriebnahme und Regelung
 
 <img src="https://user-images.githubusercontent.com/819464/50450514-e6fd0d00-092e-11e9-8232-76c392d5bdfd.jpg"></img>
 
