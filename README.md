@@ -33,6 +33,8 @@ Die Anbindung an ioBroker erfolgt dabei über den Modbus Adapter
 2. Schritt
 
   Grundparameter Modbus einstellen
+
+  <img src="https://user-images.githubusercontent.com/819464/50450841-b4541400-0930-11e9-9384-e9076f846303.jpg"></img>
   ...
 
 3. Schritt
