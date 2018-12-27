@@ -1,6 +1,6 @@
 # Einbindung des MyPV AC•THOR in ioBroker über den ioBroker Modbus-Adapter. #
 
-<img src="https://user-images.githubusercontent.com/819464/50426039-99c46100-0884-11e9-80e0-0c48ba5f803a.jpg"></img>
+<img src="https://user-images.githubusercontent.com/819464/50492875-5e5b9b00-0a1a-11e9-8808-5a3a764bc999.jpg"></img>
 
 ## my-PV AC•THOR ##
 
