@@ -12,7 +12,7 @@ Durch vielfältige Konfigurationsmöglichkeiten sind mehrere Anwendungsszenarien
 Ausgiebige Informationen findet man auf https://www.my-pv.com/de/produkte/ac-thor sowie im Handbuch.
 
 So ist es stufenlos möglich bis zu 6 kW über 2 Heizstäbe (zB. je 1 im Warmwasserpuffer und 1 im Brauchwasserpuffer) überschüssige Energie für die Warmwasser-Bereitung und Heizung
-zu nutzen.
+zur Verfügug zu stellen.
 
 Durch die stufenlose Regelung kann die Einspeiseleistung theoretisch bis gegen Null ausgeregelt werden.
 
